@@ -6,6 +6,7 @@ import { Students } from './students-list';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'Atividade Pratica';
   data = Students;
