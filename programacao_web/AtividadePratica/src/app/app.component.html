@@ -1,0 +1,24 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<div class="h2 bg-info text-white">
+  <h2 class="mb-4 ml-1" style="text-shadow: 2px 2px 4px gray" >
+    Lista de Alunos
+  </h2>
+</div>
+<table class="table table-striped">
+  <thead class="thead-dark">
+  <tr>
+    <th scope="col">Nome</th>
+    <th scope="col">RU</th>
+    <th scope="col">Curso</th>
+    <th scope="col">Data de Nascimento</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let people of data">
+    <td>{{people.name}}</td>
+    <td>{{people.ru}}</td>
+    <td>{{people.course}}</td>
+    <td>{{people.birth_date}}</td>
+  </tr>
+  </tbody>
+</table>
